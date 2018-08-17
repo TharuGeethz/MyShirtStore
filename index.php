@@ -1,29 +1,6 @@
-<html>
-<head>
-	<title>Shirts from Tharu</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700" type="text/css">
-	<link rel="shortcut icon" href="favicon.ico">
-</head>
-<body>
+<?php include('include/header.php'); ?>
 
-	<div class="header">
-
-		<div class="wrapper">
-
-			<h1 class="branding-title"><a href="./">Shirts from Tharu</a></h1>
-
-			<ul class="nav">
-				<li class="shirts"><a href="#">Shirts</a></li>
-				<li class="contact"><a href="#">Contact</a></li>
-				<li class="cart"><a href="#">Shopping Cart</a></li>
-			</ul>
-
-		</div>
-
-	</div>
-
-	<div id="content">
+	
 
 		<div class="section banner">
 
@@ -71,24 +48,9 @@
 
 			</div>
 
-		</div>
+		
 
-	</div>
-
-	<div class="footer">
-
-		<div class="wrapper">
-
-			<ul>		
-				<li><a href="http://twitter.com/treehouse">Twitter</a></li>
-				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
-			</ul>
-
-			<p>&copy;2012 Shirts from Tharu</p>
-
-		</div>
 	
-	</div>
+<?php include('include/footer.php'); ?>
 
-</body>
-</html>
+	
